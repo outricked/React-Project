@@ -1,0 +1,37 @@
+{
+  "name": "React-Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rickduyhuynh/React-Project.git",
+  "author": "Rick Huynh <rickduyhuynh98@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "react-hot-loader": "^4.12.11",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "create": "webpack",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  }
+}
